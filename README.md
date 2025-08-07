@@ -1,12 +1,20 @@
-# React + Vite
+# PasswordGenerator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+**PasswordGenerator** is a lightweight, easy-to-use JavaScript tool designed to generate secure passwords. Whether you're looking for simple random strings or more complex combinations, this tool serves your needs quickly and efficiently.
 
-Currently, two official plugins are available:
+## Features  
+- **Custom Length** – Specify the exact number of characters for your password.  
+- **Character Options** – Easily toggle inclusion of uppercase letters, lowercase letters, numbers, and special symbols.  
+- **Multiple Passwords** – Generate multiple passwords in one go (if supported in your implementation).  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation  
+Clone the repository and install any necessary dependencies:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/itsmejd7/PasswordGenerator.git
+cd PasswordGenerator
+# If there’s a package manager config (e.g., package.json), install with:
+npm install
+# or
+yarn install
